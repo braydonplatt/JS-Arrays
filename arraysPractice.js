@@ -35,10 +35,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 var reversedLooper = function(myArray){
   myArray.reverse(i);
-  for(var i = 0; i < myArray.length; i++){}
+  for (var i = 0; i < myArray.length; i++){
     alert(myArray[i]);
+  }
 };
-   reversedLooper(letters);
+reversedLooper(letters);
 
 //Another Way 
 
@@ -76,10 +77,10 @@ var odds = []
 
 
 var divider = function(arr, evens, odds){
-  for(var i = 0; i < arr.length; i++){
+  for (var i = 0; i < arr.length; i++){
     if(arr[i] % 2 === 0){
       evens.push arr[i];
-    } else  {
+    } else {
       odds.push arr[i];
     };
   };
