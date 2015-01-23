@@ -19,7 +19,7 @@ var arr = [40,50,60];
 var last = function(arr){
   return arr[arr.length - 1];
 }
-  alert(last);
+  alert(last(arr));
 
 //Next Problem
 
